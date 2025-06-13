@@ -1,0 +1,124 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: #2d6a4f;
+    margin: 0.2rem;
+    font-weight: bold;
+    margin-top: 0.4rem;
+}
+
+
+.header {
+    background: linear-gradient(to right, #74c69d, #52b788);
+    text-align: center;
+    padding: 1.5rem 0;
+    color: white;
+}
+
+.header p {
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+.navbar {
+    background: #40916c;
+}
+
+.am-main {
+    padding: 2rem 0;
+    background-color: #f3f8f7;
+}
+
+
+.am-section-title {
+    font-family: 'Lobster', cursive;
+    font-size: 2.2rem;
+    color: #2d6a4f;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.am-section-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+
+.am-timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.am-timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 4px;
+    background: #74c69d;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+.am-timeline li {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.am-timeline-date {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #52b788;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.am-timeline-content {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.am-team-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+
+.am-team-card .card-title {
+    font-weight: bold;
+    color: #2d6a4f;
+}
+
+.am-team-card .card-text {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+
+
+.footer {
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+    bottom: 0;
+}

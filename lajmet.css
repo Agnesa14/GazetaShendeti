@@ -1,0 +1,120 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: #2d6a4f;
+    margin: 0.2rem;
+    font-weight: bold;
+    margin-top: 0.4rem;
+}
+
+
+.header {
+    background: linear-gradient(to right, #74c69d, #52b788);
+    text-align: center;
+    padding: 1.5rem 0;
+    color: white;
+}
+
+.header p {
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+.navbar {
+    background: #40916c;
+}
+
+
+.am-main {
+     padding: 2rem 0;
+}
+
+.am-section-title {
+    font-family: 'Lobster', cursive;
+    font-size: 2.2rem;
+    color: #2d6a4f;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.am-news-card {
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.am-news-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.am-news-card img {
+    height: 13rem;
+    width: 40rem;
+    object-fit: cover;
+}
+
+.am-news-content {
+    text-align: center;
+}
+
+.am-news-title {
+    font-size: 1.2rem;
+    color: #40916c;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.am-news-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.am-news-button {
+    font-size: 0.9rem;
+}
+
+.am-health-tips ul {
+    font-size: 1rem;
+    color: #333;
+}
+
+.am-health-tips .list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 1rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(74, 162, 96, 0.1);
+}
+
+.table-success {
+    background-color: #74c69d;
+    color: white;
+}
+
+
+.footer {
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+    bottom: 0;
+}

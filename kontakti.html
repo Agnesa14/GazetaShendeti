@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazeta Shëndeti - Këshilla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="kontakti.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body id="gazeta shendeti">
+
+    <header class="header">
+        <div class="container">
+             <h1>Gazeta Shendeti</h1>
+            <p>Këshilla të Dobishme për një Jetë të Shëndetshme dhe të Balancuar</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Gazeta Shëndeti</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Faqja Kryesore</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lajmet.html">Lajmet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="keshilla.html">Këshilla</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dieta.html">Dieta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ushtrimet.html">Ushtrimet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="psikologjia.html">Psikologjia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="femijet.html">Femijet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="intervista.html">Intervista</a></li>
+                    <li class="nav-item"><a class="nav-link" href="rrethnesh.html">Rreth nesh</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="kontakti.html">Kontakti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="am-main">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-4">
+                <h2 class="text-center mb-4">Na Kontaktoni</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Emri juaj</label>
+                        <input type="text" class="form-control" id="name" placeholder="Shkruani emrin tuaj" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email-i juaj</label>
+                        <input type="email" class="form-control" id="email" placeholder="Shkruani email-in tuaj" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mesazhi juaj</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Shkruani mesazhin tuaj" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Dërgo Mesazhin</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4 text-center mb-4">
+                <div class="icon-box">
+                    <i class="bi bi-geo-alt fs-2 text-success"></i>
+                    <h4 class="mt-2">Adresa</h4>
+                    <p>Rruga Shëndeti, Nr. 123, Tirana</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <div class="icon-box">
+                    <i class="bi bi-telephone fs-2 text-success"></i>
+                    <h4 class="mt-2">Telefon</h4>
+                    <p>+355 67 123 4567</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <div class="icon-box">
+                    <i class="bi bi-envelope fs-2 text-success"></i>
+                    <h4 class="mt-2">Email</h4>
+                    <p>info@gazetashendeti.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <h3 class="text-center mb-4">Na gjeni këtu</h3>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.7354494730794!2d-122.0842490846921!3d37.42199977982532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5e8b1e6af9b%3A0xa8a530df4508422d!2sGoogleplex!5e0!3m2!1sen!2s!4v1634329292095!5m2!1sen!2s" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    
+    <!-- Footer -->
+    <footer class="footer text-center py-3 bg-dark text-white">
+        <p>&copy; 2025 Gazeta Shëndeti. Të gjitha të drejtat e rezervuara.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="kontakti.js"></script>
+
+  
+</body></html>
